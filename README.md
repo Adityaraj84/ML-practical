@@ -1,9 +1,6 @@
 # Plastic Waste Generation Across Indian States
 ### A Cluster and Regression Assessment of Reported Data
 
-Course project: Machine Learning, B.Sc. (H) Computer Science (Semester V), Ramanujan College, University of Delhi.
-**Author:** Adityaraj Maurya (Roll No. 24570004) | **Supervisor:** Dr. Nikhil Kumar Rajput
-
 This repository holds the data, code, results and figures for the report in [`paper/Plastic_Waste_Report_Final.pdf`](paper/Plastic_Waste_Report_Final.pdf).
 Everything in the paper is produced by one script, `analysis.py`.
 
