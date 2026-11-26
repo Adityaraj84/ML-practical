@@ -38,17 +38,6 @@ The results are descriptive and associational. They do not establish causes or p
 Tripura and Sikkim report about 0.01 and 0.11 kg per person per year, against 20.1 kg for Goa. That range is more consistent with differences in reporting coverage than in true generation, although this study cannot confirm it.
 
 The K-means typology is reproducible but **not** robust: log or rank transformation of the features changes the partition almost completely (ARI 0.05-0.16), and its three-member group's mean growth of 47,748% is an artefact of very low baselines.
-
-## Figures
-| | |
-|---|---|
-| **Fig. 1** K selection (silhouette and elbow) | ![Fig 1](figures/fig1_k_selection.png) |
-| **Fig. 2** Ward dendrogram | ![Fig 2](figures/fig2_dendrogram.png) |
-| **Fig. 3** K-means assignments | ![Fig 3](figures/fig3_clusters.png) |
-| **Fig. 4** Ten highest mean generation | ![Fig 4](figures/fig4_top10.png) |
-| **Fig. 5** Stability and null models | ![Fig 5](figures/fig5_stability.png) |
-| **Fig. 6** Observed vs leave-one-out predicted (ridge) | ![Fig 6](figures/fig6_regression.png) |
-
 ## Repository contents
 | Path | Content |
 |---|---|
