@@ -1,0 +1,10 @@
+variant,n,best_k,sil_best,sil_k3,ari_k3_vs_original,sizes_k3
+"Original (mean, endpoint growth %)",35,3,0.79,0.79,1.0,"[24, 8, 3]"
+Log10 mean + log growth ratio,35,3,0.534,0.534,0.054,"[23, 6, 6]"
+Log10 mean + annualised log growth,35,3,0.564,0.564,0.105,"[24, 7, 4]"
+Rank (percentile) scaling of both,35,3,0.404,0.404,0.163,"[13, 12, 10]"
+Log10 mean only,35,6,0.638,0.607,0.014,"[22, 10, 3]"
+Common window 2018-19 to 2020-21 (n=34),34,2,0.788,0.754,0.75,"[25, 8, 1]"
+"Common window, log scales",34,2,0.56,0.431,-0.021,"[21, 9, 4]"
+"Complete cases only, 2016-17 to 2020-21 (n=8)",8,3,0.555,0.555,0.653,"[5, 2, 1]"
+"Complete cases only, log scales (n=8)",8,2,0.429,0.415,-0.178,"[5, 2, 1]"

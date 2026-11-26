@@ -1,5 +1,432 @@
 {
-  "n": 35,
-  "k": 3,
-  "silhouette": 0.7897970995754521
+  "silhouette_by_k": {
+    "2": 0.698023789281215,
+    "3": 0.7897970995754524,
+    "4": 0.6280061046290127,
+    "5": 0.616561351466941,
+    "6": 0.5916304392702293
+  },
+  "selected_k": 3,
+  "silhouette": 0.7897970995754524,
+  "inertia_k1_8": {
+    "1": 70.0,
+    "2": 35.60987275471057,
+    "3": 5.727587217978062,
+    "4": 3.8688763839205387,
+    "5": 2.1245807051645835,
+    "6": 1.4768207568974954,
+    "7": 0.8662345134445147,
+    "8": 0.5235413355329607
+  },
+  "table1": [
+    {
+      "cluster": 0,
+      "n": 24,
+      "mean_generation": 36787.1,
+      "mean_growth": 802.99
+    },
+    {
+      "cluster": 1,
+      "n": 3,
+      "mean_generation": 3973.2,
+      "mean_growth": 47748.28
+    },
+    {
+      "cluster": 2,
+      "n": 8,
+      "mean_generation": 302982.79,
+      "mean_growth": 275.26
+    }
+  ],
+  "cluster_members": {
+    "0": [
+      "Andhra Pradesh",
+      "Assam",
+      "Bihar",
+      "Chhattisgarh",
+      "Goa",
+      "Haryana",
+      "Himachal Pradesh",
+      "Jammu and Kashmir",
+      "Jharkhand",
+      "Kerala",
+      "Madhya Pradesh",
+      "Mizoram",
+      "Nagaland",
+      "Odisha",
+      "Punjab",
+      "Rajasthan",
+      "Sikkim",
+      "Tripura",
+      "Uttarakhand",
+      "Andaman and Nicobar Islands",
+      "Dadra and Nagar Haveli and Daman and Diu",
+      "Chandigarh",
+      "Lakshadweep",
+      "Puducherry"
+    ],
+    "1": [
+      "Arunachal Pradesh",
+      "Manipur",
+      "Meghalaya"
+    ],
+    "2": [
+      "Gujarat",
+      "Karnataka",
+      "Maharashtra",
+      "Tamil Nadu",
+      "Telangana",
+      "Uttar Pradesh",
+      "West Bengal",
+      "Delhi NCR"
+    ]
+  },
+  "missing_by_year": {
+    "2016-17": 14,
+    "2017-18": 22,
+    "2018-19": 0,
+    "2019-20": 0,
+    "2020-21": 1
+  },
+  "span_distribution": {
+    "2": 10,
+    "3": 5,
+    "4": 20
+  },
+  "n_states_missing_any": 27,
+  "seed_ari_mean": 1.0,
+  "seed_ari_min": 1.0,
+  "bootstrap_ari_mean": 0.9935875549727246,
+  "bootstrap_ari_sd": 0.03593803228428635,
+  "bootstrap_ari_p5_p95": [
+    1.0,
+    1.0
+  ],
+  "bootstrap_k_share": {
+    "2": 0.07,
+    "3": 0.776,
+    "4": 0.124,
+    "5": 0.014,
+    "6": 0.016
+  },
+  "null_gaussian_sil_mean_p95": [
+    0.38032087726170277,
+    0.4457902559088467
+  ],
+  "null_permuted_sil_mean_p95": [
+    0.7851645483779104,
+    0.8080823922437126
+  ],
+  "sensitivity": [
+    {
+      "variant": "Original (mean, endpoint growth %)",
+      "n": 35,
+      "best_k": 3,
+      "sil_best": 0.79,
+      "sil_k3": 0.79,
+      "ari_k3_vs_original": 1.0,
+      "sizes_k3": [
+        24,
+        8,
+        3
+      ]
+    },
+    {
+      "variant": "Log10 mean + log growth ratio",
+      "n": 35,
+      "best_k": 3,
+      "sil_best": 0.534,
+      "sil_k3": 0.534,
+      "ari_k3_vs_original": 0.054,
+      "sizes_k3": [
+        23,
+        6,
+        6
+      ]
+    },
+    {
+      "variant": "Log10 mean + annualised log growth",
+      "n": 35,
+      "best_k": 3,
+      "sil_best": 0.564,
+      "sil_k3": 0.564,
+      "ari_k3_vs_original": 0.105,
+      "sizes_k3": [
+        24,
+        7,
+        4
+      ]
+    },
+    {
+      "variant": "Rank (percentile) scaling of both",
+      "n": 35,
+      "best_k": 3,
+      "sil_best": 0.404,
+      "sil_k3": 0.404,
+      "ari_k3_vs_original": 0.163,
+      "sizes_k3": [
+        13,
+        12,
+        10
+      ]
+    },
+    {
+      "variant": "Log10 mean only",
+      "n": 35,
+      "best_k": 6,
+      "sil_best": 0.638,
+      "sil_k3": 0.607,
+      "ari_k3_vs_original": 0.014,
+      "sizes_k3": [
+        22,
+        10,
+        3
+      ]
+    },
+    {
+      "variant": "Common window 2018-19 to 2020-21 (n=34)",
+      "n": 34,
+      "best_k": 2,
+      "sil_best": 0.788,
+      "sil_k3": 0.754,
+      "ari_k3_vs_original": 0.75,
+      "sizes_k3": [
+        25,
+        8,
+        1
+      ]
+    },
+    {
+      "variant": "Common window, log scales",
+      "n": 34,
+      "best_k": 2,
+      "sil_best": 0.56,
+      "sil_k3": 0.431,
+      "ari_k3_vs_original": -0.021,
+      "sizes_k3": [
+        21,
+        9,
+        4
+      ]
+    },
+    {
+      "variant": "Complete cases only, 2016-17 to 2020-21 (n=8)",
+      "n": 8,
+      "best_k": 3,
+      "sil_best": 0.555,
+      "sil_k3": 0.555,
+      "ari_k3_vs_original": 0.653,
+      "sizes_k3": [
+        5,
+        2,
+        1
+      ]
+    },
+    {
+      "variant": "Complete cases only, log scales (n=8)",
+      "n": 8,
+      "best_k": 2,
+      "sil_best": 0.429,
+      "sil_k3": 0.415,
+      "ari_k3_vs_original": -0.178,
+      "sizes_k3": [
+        5,
+        2,
+        1
+      ]
+    }
+  ],
+  "ari_ward_vs_kmeans": 1.0,
+  "ari_gmm_vs_kmeans": 0.8324453405724456,
+  "corr_logpop_logwaste": 0.8115041462913553,
+  "corr_urban_logwaste": 0.03688299241528543,
+  "corr_pop_urban": -0.3967369353824303,
+  "regression": [
+    {
+      "model": "Mean-only baseline",
+      "loocv_rmse": 1.072,
+      "kfold_rmse_mean": 1.075,
+      "kfold_rmse_sd": 0.02,
+      "loocv_r2": -0.06,
+      "diff_vs_baseline": 0.0,
+      "diff_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "model": "OLS",
+      "loocv_rmse": 0.492,
+      "kfold_rmse_mean": 0.499,
+      "kfold_rmse_sd": 0.02,
+      "loocv_r2": 0.777,
+      "diff_vs_baseline": -0.58,
+      "diff_ci95": [
+        -0.773,
+        -0.413
+      ]
+    },
+    {
+      "model": "Ridge (alpha by inner CV)",
+      "loocv_rmse": 0.489,
+      "kfold_rmse_mean": 0.496,
+      "kfold_rmse_sd": 0.019,
+      "loocv_r2": 0.78,
+      "diff_vs_baseline": -0.583,
+      "diff_ci95": [
+        -0.763,
+        -0.421
+      ]
+    },
+    {
+      "model": "Lasso (alpha by inner CV)",
+      "loocv_rmse": 0.509,
+      "kfold_rmse_mean": 0.515,
+      "kfold_rmse_sd": 0.023,
+      "loocv_r2": 0.761,
+      "diff_vs_baseline": -0.563,
+      "diff_ci95": [
+        -0.747,
+        -0.401
+      ]
+    },
+    {
+      "model": "Random forest",
+      "loocv_rmse": 0.556,
+      "kfold_rmse_mean": 0.575,
+      "kfold_rmse_sd": 0.032,
+      "loocv_r2": 0.715,
+      "diff_vs_baseline": -0.516,
+      "diff_ci95": [
+        -0.662,
+        -0.384
+      ]
+    }
+  ],
+  "ols": {
+    "r2": 0.8113561866995322,
+    "adj_r2": 0.799565948368253,
+    "f_p": 2.572059841746039e-12,
+    "coef_std": [
+      4.328627014904947,
+      1.0212223150184856,
+      0.4435729289556305
+    ],
+    "p": [
+      4.8511967630943884e-33,
+      4.0573947160483707e-13,
+      1.5232567011212965e-05
+    ],
+    "ci": [
+      [
+        4.165730162485344,
+        4.491523867324549
+      ],
+      [
+        0.8437616863094547,
+        1.1986829437275166
+      ],
+      [
+        0.2661123002465995,
+        0.6210335576646615
+      ]
+    ]
+  },
+  "ridge_alpha_median_range": [
+    0.8531678524172805,
+    0.4520353656360243,
+    1.1721022975334805
+  ],
+  "lasso_alpha_median_range": [
+    0.06403323595880314,
+    0.02596951859465618,
+    0.07218419692888603
+  ],
+  "rf_importance": {
+    "log10 population": 0.838,
+    "urban %": 0.162
+  },
+  "best_regression": "Ridge (alpha by inner CV)",
+  "top_residuals": [
+    {
+      "State_UT": "Tripura",
+      "mean_generation": 35.67,
+      "loocv_resid": -2.132
+    },
+    {
+      "State_UT": "Sikkim",
+      "mean_generation": 65.028,
+      "loocv_resid": -0.96
+    },
+    {
+      "State_UT": "Goa",
+      "mean_generation": 29363.173,
+      "loocv_resid": 0.69
+    },
+    {
+      "State_UT": "Telangana",
+      "mean_generation": 296448.217,
+      "loocv_resid": 0.534
+    },
+    {
+      "State_UT": "Delhi NCR",
+      "mean_generation": 258266.75,
+      "loocv_resid": -0.519
+    },
+    {
+      "State_UT": "Jammu and Kashmir",
+      "mean_generation": 47193.575,
+      "loocv_resid": 0.479
+    }
+  ],
+  "percapita_by_cluster": [
+    {
+      "cluster": 0,
+      "median": 2.25,
+      "min": 0.01,
+      "max": 20.13
+    },
+    {
+      "cluster": 1,
+      "median": 1.86,
+      "min": 0.53,
+      "max": 2.72
+    },
+    {
+      "cluster": 2,
+      "median": 5.04,
+      "min": 1.15,
+      "max": 15.38
+    }
+  ],
+  "percapita_top_bottom": {
+    "top": [
+      {
+        "State_UT": "Goa",
+        "kg_per_capita": 20.13
+      },
+      {
+        "State_UT": "Delhi NCR",
+        "kg_per_capita": 15.38
+      },
+      {
+        "State_UT": "Chandigarh",
+        "kg_per_capita": 12.48
+      }
+    ],
+    "bottom": [
+      {
+        "State_UT": "Tripura",
+        "kg_per_capita": 0.01
+      },
+      {
+        "State_UT": "Sikkim",
+        "kg_per_capita": 0.11
+      },
+      {
+        "State_UT": "Bihar",
+        "kg_per_capita": 0.36
+      }
+    ]
+  }
 }
